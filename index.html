@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mehedi Hasan Himel — Portfolio (Light Theme)</title>
+
+    <!-- Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/60e9510ec4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      :root {
+        --bg: #f9f9f9; /* Single light background */
+        --primary: #15296c; /* Blue accent */
+        --primary-variant: rgba(21, 41, 108, 0.2);
+        --primary-variant-2: #dbe0f5;
+        --light: #6b7280; /* gray text */
+      }
+      body {
+        font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+      }
+    </style>
+  </head>
+  <body class="bg-[var(--bg)] text-gray-900 antialiased">
+    <!-- Header -->
+    <header id="home" class="min-h-screen pt-8 relative overflow-hidden">
+      <div
+        class="mx-auto w-[75%] md:w-[86%] lg:w-[75%] h-full flex flex-col items-center text-center relative"
+      >
+        <h5 class="text-sm font-medium text-gray-500">Hello I'm</h5>
+        <h1 class="mt-2 text-4xl md:text-[2.5rem] font-medium">
+          Mehedi Hasan Himel
+        </h1>
+        <h5 class="mt-1 text-base text-gray-600">Full-Stack Web Developer.</h5>
+
+        <!-- CTA -->
+        <!-- CTA -->
+        <div class="flex gap-4 md:gap-6 mt-8">
+          <a
+            href="./assets/cv.pdf"
+            download
+            class="inline-block px-4 py-3 rounded-full border border-[var(--primary)] text-[var(--primary)] font-medium transition-all duration-300 hover:bg-[var(--primary)] hover:text-white"
+          >
+            Download CV
+          </a>
+          <a
+            href="mailto:mehedihasanhimel89@gmail.com"
+            class="inline-block w-max px-4 py-3 rounded-full bg-[var(--primary)] text-white font-medium transition-all duration-300 hover:outline outline-2 outline-[var(--primary)] hover:bg-transparent hover:text-[var(--primary)]"
+          >
+            Let's Talk
+          </a>
+        </div>
+
+        <!-- Social column -->
+        <div
+          class="hidden md:flex flex-col items-center gap-2 absolute left-0 bottom-8"
+        >
+          <div class="w-px h-8 bg-[var(--primary)]" aria-hidden="true"></div>
+          <a
+            href="https://www.linkedin.com/in/mehedi-hasan-himel/"
+            target="_blank"
+            class="text-[var(--primary)] text-xl"
+            ><i class="fa-brands fa-square-linkedin"></i
+          ></a>
+          <a
+            href="https://twitter.com/HIMEL_JS"
+            target="_blank"
+            class="text-[var(--primary)] text-xl"
+            ><i class="fa-brands fa-square-x-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/mehedi_hasan_himel.js/"
+            target="_blank"
+            class="text-[var(--primary)] text-xl"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/Mehedi-Hasan-Himel"
+            target="_blank"
+            class="text-[var(--primary)] text-xl"
+            ><i class="fa-brands fa-square-github"></i
+          ></a>
+          <div class="w-px h-8 bg-[var(--primary)]" aria-hidden="true"></div>
+        </div>
+
+        <!-- Scroll down -->
+        <a
+          href="#contact"
+          class="hidden md:inline-block absolute right-[-2.3rem] bottom-20 rotate-90 font-light text-sm"
+          >Scroll Down</a
+        >
+
+        <!-- Me Image -->
+        <div
+          class="mt-16 w-[22rem] h-[30rem] rounded-t-[12rem] px-6 pt-20 pb-6 bg-gradient-to-t from-transparent to-[var(--primary-variant-2)] overflow-hidden flex items-start justify-center"
+        >
+          <div class="w-full h-full flex items-center justify-center">
+            <img
+              src="assets/id.png"
+              alt="Me"
+              class="block w-full h-full object-cover rounded-t-[10rem]"
+            />
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav
+          class="fixed left-1/2 bottom-8 transform -translate-x-1/2 z-20 bg-white/80 backdrop-blur-md rounded-full px-4 py-2 flex gap-2 shadow"
+        >
+          <a
+            href="#home"
+            class="p-2 rounded-full text-lg hover:bg-[var(--primary)] hover:text-white transition-colors"
+            title="Home"
+            ><i class="fa-regular fa-house"></i
+          ></a>
+          <a
+            href="#about"
+            class="p-2 rounded-full text-lg hover:bg-[var(--primary)] hover:text-white transition-colors"
+            title="About"
+            ><i class="fa-regular fa-user"></i
+          ></a>
+          <a
+            href="#experience"
+            class="p-2 rounded-full text-lg hover:bg-[var(--primary)] hover:text-white transition-colors"
+            title="Experience"
+            ><i class="fa-solid fa-book-open-reader"></i
+          ></a>
+          <a
+            href="#services"
+            class="p-2 rounded-full text-lg hover:bg-[var(--primary)] hover:text-white transition-colors"
+            title="Services"
+            ><i class="fa-solid fa-screwdriver-wrench"></i
+          ></a>
+          <a
+            href="#contact"
+            class="p-2 rounded-full text-lg hover:bg-[var(--primary)] hover:text-white transition-colors"
+            title="Contact"
+            ><i class="fa-regular fa-message"></i
+          ></a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- About Section Start -->
+      <section id="about" class="py-20 px-6 md:px-16">
+        <h5 class="text-sm text-gray-500 text-center mb-2">Get To Know</h5>
+        <h2
+          class="text-3xl md:text-4xl font-semibold text-center mb-12 text-[var(--primary)]"
+        >
+          About Me
+        </h2>
+
+        <div
+          class="container mx-auto flex flex-col md:flex-row items-center gap-12"
+        >
+          <!-- About Image -->
+          <div class="flex-1 flex justify-center md:justify-start">
+            <div
+              class="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-4 border-[var(--primary)] shadow-lg transform rotate-12 transition-transform duration-300 hover:rotate-0"
+            >
+              <img
+                src="./assets/cool.png"
+                alt="About"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
+          <!-- About Content -->
+          <div class="flex-1 max-w-xl flex flex-col justify-center gap-6">
+            <div
+              class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:text-left text-center mb-6"
+            >
+              <article
+                class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center gap-2 border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300"
+              >
+                <i
+                  class="fa-solid fa-book-open-reader text-[var(--primary)] text-2xl mb-2 hover:text-gray-600 transition-colors duration-300"
+                ></i>
+                <h5 class="font-medium">Experience</h5>
+                <small class="text-gray-500">1+ Years Working</small>
+              </article>
+
+              <article
+                class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center gap-2 border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300"
+              >
+                <i
+                  class="fa-regular fa-user text-[var(--primary)] text-2xl mb-2 hover:text-gray-600 transition-colors duration-300"
+                ></i>
+                <h5 class="font-medium">Clients</h5>
+                <small class="text-gray-500">25+ Worldwide</small>
+              </article>
+
+              <article
+                class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center gap-2 border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300"
+              >
+                <i
+                  class="fa-solid fa-screwdriver-wrench text-[var(--primary)] text-2xl mb-2 hover:text-gray-600 transition-colors duration-300"
+                ></i>
+                <h5 class="font-medium">Projects</h5>
+                <small class="text-gray-500">30+ Completed</small>
+              </article>
+            </div>
+
+            <p class="text-gray-600 mb-6">
+              I’m currently focusing on <strong>problem solving</strong> and
+              aiming to become a skilled
+              <strong>competitive programmer</strong>. Alongside that, I’m
+              learning the <strong>MERN Stack</strong> to strengthen my
+              <strong>Full-Stack Development</strong>
+              skills and expand my understanding of modern web technologies.
+              Previously, I worked as a
+              <strong>WordPress Web Designer</strong> at
+              <strong>SM Technology</strong> and <strong>Aurwave</strong>, where
+              I designed and developed user-friendly website tailored to client
+              needs. I’m passionate about continuous learning, coding
+              challenges, and building efficient solutions. Excited to keep
+              improving, take on new challenges, and grow as a
+              <strong>Software Engineer</strong>. Let’s connect and collaborate
+              on something amazing!
+            </p>
+            <a
+              href="mailto:mehedihasanhimel89@gmail.com"
+              class="inline-block w-max px-4 py-3 rounded-full bg-[var(--primary)] text-white font-medium transition-all duration-300 hover:outline outline-2 outline-[var(--primary)] hover:bg-transparent hover:text-[var(--primary)]"
+            >
+              Let's Talk
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Experience Section Start -->
+      <section id="experience" class="py-20 px-6 md:px-16 bg-[var(--bg)]">
+        <div class="max-w-6xl mx-auto">
+          <h5 class="text-center text-gray-500 mb-2">What Skill I Have</h5>
+          <h2
+            class="text-3xl md:text-4xl font-semibold text-center mb-12 text-[var(--primary)]"
+          >
+            My Experience
+          </h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Frontend -->
+            <div
+              class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300"
+            >
+              <h3
+                class="text-center text-[var(--primary)] text-xl font-semibold mb-6"
+              >
+                Frontend Development
+              </h3>
+              <div class="grid grid-cols-2 gap-4">
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">HTML</h4>
+                    <small class="text-gray-500">Experienced</small>
+                  </div>
+                </article>
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">CSS</h4>
+                    <small class="text-gray-500">Intermediate</small>
+                  </div>
+                </article>
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">ReactJS</h4>
+                    <small class="text-gray-500">Experienced</small>
+                  </div>
+                </article>
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">TailwindCSS</h4>
+                    <small class="text-gray-500">Experienced</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Backend & Database -->
+            <div
+              class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300"
+            >
+              <h3
+                class="text-center text-[var(--primary)] text-xl font-semibold mb-6"
+              >
+                Backend & Database
+              </h3>
+              <div class="grid grid-cols-2 gap-4">
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">NodeJS</h4>
+                    <small class="text-gray-500">Experienced</small>
+                  </div>
+                </article>
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">ExpressJS</h4>
+                    <small class="text-gray-500">Intermediate</small>
+                  </div>
+                </article>
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">MongoDB</h4>
+                    <small class="text-gray-500">Intermediate</small>
+                  </div>
+                </article>
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">PostgreSQL</h4>
+                    <small class="text-gray-500">Beginner</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- CMS -->
+            <div
+              class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300"
+            >
+              <h3
+                class="text-center text-[var(--primary)] text-xl font-semibold mb-6"
+              >
+                CMS
+              </h3>
+              <div class="grid grid-cols-2 gap-4">
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">WordPress</h4>
+                    <small class="text-gray-500">Experienced</small>
+                  </div>
+                </article>
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">Sanity.io</h4>
+                    <small class="text-gray-500">Beginner</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Programming Languages -->
+            <div
+              class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300"
+            >
+              <h3
+                class="text-center text-[var(--primary)] text-xl font-semibold mb-6"
+              >
+                Programming Languages
+              </h3>
+              <div class="grid grid-cols-2 gap-4">
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">JavaScript</h4>
+                    <small class="text-gray-500">Experienced</small>
+                  </div>
+                </article>
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">TypeScript</h4>
+                    <small class="text-gray-500">Intermediate</small>
+                  </div>
+                </article>
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">C++</h4>
+                    <small class="text-gray-500">Beginner</small>
+                  </div>
+                </article>
+                <article class="flex items-start gap-3">
+                  <i
+                    class="fa-solid fa-circle-check text-[var(--primary)] mt-1"
+                  ></i>
+                  <div>
+                    <h4 class="font-medium">C</h4>
+                    <small class="text-gray-500">Beginner</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Experience Section End -->
+
+      <!-- Services Section Start -->
+      <section id="services" class="py-20 px-6 md:px-16 bg-[var(--bg)]">
+        <h5 class="text-center text-[var(--light)] mb-2">What I Offer</h5>
+        <h2
+          class="text-center text-[var(--primary)] text-3xl md:text-4xl font-semibold mb-12"
+        >
+          Services
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- CMS Based Website -->
+          <article
+            class="flex flex-col border-4 border-[var(--primary)] rounded-b-3xl overflow-hidden transition-all duration-400 hover:bg-[var(--primary-variant)] cursor-pointer"
+          >
+            <div class="bg-[var(--primary)] p-8 text-center rounded-b-3xl">
+              <h3 class="text-[var(--bg)] text-lg font-semibold">
+                CMS Based Website
+              </h3>
+            </div>
+            <ul class="p-8 flex flex-col gap-2">
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  WordPress Website Design
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">No-Code Web Building</p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">E-commerce Solutions</p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Speed & SEO Optimization
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Mobile-Responsive Design
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Elementor, Divi Page Builder Expertise
+                </p>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Web Development -->
+          <article
+            class="flex flex-col border-4 border-[var(--primary)] rounded-b-3xl overflow-hidden transition-all duration-400 hover:bg-[var(--primary-variant)] cursor-pointer"
+          >
+            <div class="bg-[var(--primary)] p-8 text-center rounded-b-3xl">
+              <h3 class="text-[var(--bg)] text-lg font-semibold">
+                Web Development
+              </h3>
+            </div>
+            <ul class="p-8 flex flex-col gap-2">
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Web Application Development
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Custom Software Development
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Front-End Web Development
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Backend-End Development
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Headless CMS Integration
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">Bug Fixing</p>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Content Creation -->
+          <article
+            class="flex flex-col border-4 border-[var(--primary)] rounded-b-3xl overflow-hidden transition-all duration-400 hover:bg-[var(--primary-variant)] cursor-pointer"
+          >
+            <div class="bg-[var(--primary)] p-8 text-center rounded-b-3xl">
+              <h3 class="text-[var(--bg)] text-lg font-semibold">
+                Content Creation
+              </h3>
+            </div>
+            <ul class="p-8 flex flex-col gap-2">
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Website Copy & SEO Content
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Tutorials, Guides, & Documentation
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Visual & Multimedia Content
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  Marketing & Promotional Content
+                </p>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-[var(--primary)] mt-1"></i>
+                <p class="text-[var(--white)] text-sm">
+                  User Manuals & Technical Writing
+                </p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <!-- Services Section End -->
+
+      <!-- Portfolio Section Start -->
+      <section id="portfolio" class="py-20 px-6 md:px-16 bg-[var(--bg)]">
+        <h5 class="text-center text-gray-500 mb-2">My Recent Works</h5>
+        <h2
+          class="text-center text-[var(--primary)] text-3xl md:text-4xl font-semibold mb-12"
+        >
+          Portfolio
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Portfolio Item -->
+          <article
+            class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg"
+          >
+            <div class="rounded-2xl overflow-hidden mb-4">
+              <img
+                src="./assets/portfolio1.jpg"
+                alt="Portfolio 1"
+                class="w-full h-auto object-cover"
+              />
+            </div>
+            <h3 class="text-[var(--primary)] text-lg font-semibold mb-4">
+              Charts templates & infographics in Figma
+            </h3>
+            <div class="flex gap-4">
+              <a
+                href="https://github.com/Mehedi-Hasan-Himel"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full border border-[var(--primary)] text-[var(--primary)] font-medium transition-all duration-300 hover:bg-[var(--primary)] hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-[var(--primary)] active:bg-[var(--primary-variant-2)]"
+              >
+                Github
+              </a>
+              <a
+                href="https://dribbble.com/shots/16580766-Orion-Ul-kit-Charts-templates-infographics-in-Figma"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full bg-[var(--primary)] text-white font-medium transition-all duration-300 hover:outline outline-2 outline-[var(--primary)] hover:bg-transparent hover:text-[var(--primary)]"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <!-- Repeat for other portfolio items -->
+          <article
+            class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg"
+          >
+            <div class="rounded-2xl overflow-hidden mb-4">
+              <img
+                src="./assets/portfolio2.jpg"
+                alt="Portfolio 2"
+                class="w-full h-auto object-cover"
+              />
+            </div>
+            <h3 class="text-[var(--primary)] text-lg font-semibold mb-4">
+              Charts templates & infographics in Figma
+            </h3>
+            <div class="flex gap-4">
+              <a
+                href="https://github.com/Mehedi-Hasan-Himel"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full border border-[var(--primary)] text-[var(--primary)] font-medium transition-all duration-300 hover:bg-[var(--primary)] hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-[var(--primary)] active:bg-[var(--primary-variant-2)]"
+              >
+                Github
+              </a>
+              <a
+                href="https://dribbble.com/shots/16580766-Orion-Ul-kit-Charts-templates-infographics-in-Figma"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full bg-[var(--primary)] text-white font-medium transition-all duration-300 hover:outline outline-2 outline-[var(--primary)] hover:bg-transparent hover:text-[var(--primary)]"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article
+            class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg"
+          >
+            <div class="rounded-2xl overflow-hidden mb-4">
+              <img
+                src="./assets/portfolio3.jpg"
+                alt="Portfolio 3"
+                class="w-full h-auto object-cover"
+              />
+            </div>
+            <h3 class="text-[var(--primary)] text-lg font-semibold mb-4">
+              Figma dashboard UI kit for data design web apps
+            </h3>
+            <div class="flex gap-4">
+              <a
+                href="https://github.com/Mehedi-Hasan-Himel"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full border border-[var(--primary)] text-[var(--primary)] font-medium transition-all duration-300 hover:bg-[var(--primary)] hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-[var(--primary)] active:bg-[var(--primary-variant-2)]"
+              >
+                Github
+              </a>
+              <a
+                href="https://dribbble.com/shots/16580766-Orion-Ul-kit-Charts-templates-infographics-in-Figma"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full bg-[var(--primary)] text-white font-medium transition-all duration-300 hover:outline outline-2 outline-[var(--primary)] hover:bg-transparent hover:text-[var(--primary)]"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article
+            class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg"
+          >
+            <div class="rounded-2xl overflow-hidden mb-4">
+              <img
+                src="./assets/portfolio4.jpg"
+                alt="Portfolio 4"
+                class="w-full h-auto object-cover"
+              />
+            </div>
+            <h3 class="text-[var(--primary)] text-lg font-semibold mb-4">
+              Maintaining tasks and tracking progress
+            </h3>
+            <div class="flex gap-4">
+              <a
+                href="https://github.com/Mehedi-Hasan-Himel"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full border border-[var(--primary)] text-[var(--primary)] font-medium transition-all duration-300 hover:bg-[var(--primary)] hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-[var(--primary)] active:bg-[var(--primary-variant-2)]"
+              >
+                Github
+              </a>
+              <a
+                href="https://dribbble.com/shots/16580766-Orion-Ul-kit-Charts-templates-infographics-in-Figma"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full bg-[var(--primary)] text-white font-medium transition-all duration-300 hover:outline outline-2 outline-[var(--primary)] hover:bg-transparent hover:text-[var(--primary)]"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article
+            class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg"
+          >
+            <div class="rounded-2xl overflow-hidden mb-4">
+              <img
+                src="./assets/portfolio5.png"
+                alt="Portfolio 5"
+                class="w-full h-auto object-cover"
+              />
+            </div>
+            <h3 class="text-[var(--primary)] text-lg font-semibold mb-4">
+              Charts templates & infographics in Figma
+            </h3>
+            <div class="flex gap-4">
+              <a
+                href="https://github.com/Mehedi-Hasan-Himel"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full border border-[var(--primary)] text-[var(--primary)] font-medium transition-all duration-300 hover:bg-[var(--primary)] hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-[var(--primary)] active:bg-[var(--primary-variant-2)]"
+              >
+                Github
+              </a>
+              <a
+                href="https://dribbble.com/shots/16580766-Orion-Ul-kit-Charts-templates-infographics-in-Figma"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full bg-[var(--primary)] text-white font-medium transition-all duration-300 hover:outline outline-2 outline-[var(--primary)] hover:bg-transparent hover:text-[var(--primary)]"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article
+            class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg"
+          >
+            <div class="rounded-2xl overflow-hidden mb-4">
+              <img
+                src="./assets/portfolio6.jpg"
+                alt="Portfolio 6"
+                class="w-full h-auto object-cover"
+              />
+            </div>
+            <h3 class="text-[var(--primary)] text-lg font-semibold mb-4">
+              Charts templates & infographics in Figma
+            </h3>
+            <div class="flex gap-4">
+              <a
+                href="https://github.com/Mehedi-Hasan-Himel"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full border border-[var(--primary)] text-[var(--primary)] font-medium transition-all duration-300 hover:bg-[var(--primary)] hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-[var(--primary)] active:bg-[var(--primary-variant-2)]"
+              >
+                Github
+              </a>
+              <a
+                href="https://dribbble.com/shots/16580766-Orion-Ul-kit-Charts-templates-infographics-in-Figma"
+                target="_blank"
+                class="inline-block px-4 py-2 rounded-full bg-[var(--primary)] text-white font-medium transition-all duration-300 hover:outline outline-2 outline-[var(--primary)] hover:bg-transparent hover:text-[var(--primary)]"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+
+      <!-- Testimonials Section Start -->
+      <section id="testimonials" class="py-20 px-6 md:px-16 bg-[var(--bg)]">
+        <h5 class="text-center text-[var(--light)] mb-2">
+          Review from Clients
+        </h5>
+        <h2
+          class="text-center text-[var(--primary)] text-3xl md:text-4xl font-semibold mb-12"
+        >
+          Testimonials
+        </h2>
+
+        <div
+          class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          <!-- Testimonial 1 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg text-center"
+          >
+            <div class="flex justify-center mb-4">
+              <img
+                src="./assets/avatar1.jpg"
+                alt="Tina Snow"
+                class="w-20 h-20 rounded-full border-4 border-[var(--primary)] object-cover"
+              />
+            </div>
+            <h5 class="text-[var(--primary)] text-lg font-semibold mb-2">
+              Tina Snow
+            </h5>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Modi alias animi dolorem aliquam ea eum beatae maiores,
+              consectetur praesentium quibusdam, commodi velit porro blanditiis
+              consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore
+              distinctio ratione delectus voluptatem dolores deserunt explicabo
+              nostrum ducimus quasi?
+            </p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg text-center"
+          >
+            <div class="flex justify-center mb-4">
+              <img
+                src="./assets/avatar2.jpg"
+                alt="Shatta Wale"
+                class="w-20 h-20 rounded-full border-4 border-[var(--primary)] object-cover"
+              />
+            </div>
+            <h5 class="text-[var(--primary)] text-lg font-semibold mb-2">
+              Shatta Wale
+            </h5>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Modi alias animi dolorem aliquam ea eum beatae maiores,
+              consectetur praesentium quibusdam, commodi velit porro blanditiis
+              consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore
+              distinctio ratione delectus voluptatem dolores deserunt explicabo
+              nostrum ducimus quasi?
+            </p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg text-center"
+          >
+            <div class="flex justify-center mb-4">
+              <img
+                src="./assets/avatar3.jpg"
+                alt="Kwame Despite"
+                class="w-20 h-20 rounded-full border-4 border-[var(--primary)] object-cover"
+              />
+            </div>
+            <h5 class="text-[var(--primary)] text-lg font-semibold mb-2">
+              Kwame Despite
+            </h5>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Modi alias animi dolorem aliquam ea eum beatae maiores,
+              consectetur praesentium quibusdam, commodi velit porro blanditiis
+              consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore
+              distinctio ratione delectus voluptatem dolores deserunt explicabo
+              nostrum ducimus quasi?
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials Section End -->
+
+      <!-- Contact Section Start -->
+      <section id="contact" class="py-20 px-6 md:px-16 bg-[var(--bg)]">
+        <h5 class="text-center text-[var(--light)] mb-2">Get In Touch</h5>
+        <h2
+          class="text-center text-[var(--primary)] text-3xl md:text-4xl font-semibold mb-12"
+        >
+          Contact Me
+        </h2>
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- Contact Options -->
+          <div class="flex flex-col gap-6">
+            <!-- Email -->
+            <article
+              class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg text-center"
+            >
+              <i
+                class="fa-solid fa-envelope text-[var(--primary)] text-3xl mb-4"
+              ></i>
+              <h4 class="text-[var(--primary)] text-lg font-semibold">Email</h4>
+              <h5 class="text-gray-600 mb-2">mehedihasanhimel89@gmail.com</h5>
+              <a
+                href="mailto:mehedihasanhimel89@gmail.com"
+                target="_blank"
+                class="inline-block text-[var(--primary)] font-medium transition-all duration-300 hover:underline hover:text-[var(--primary-variant)]"
+              >
+                Send a message
+              </a>
+            </article>
+
+            <!-- Messenger -->
+            <article
+              class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg text-center"
+            >
+              <i
+                class="fa-brands fa-facebook-messenger text-[var(--primary)] text-3xl mb-4"
+              ></i>
+              <h4 class="text-[var(--primary)] text-lg font-semibold">
+                Messenger
+              </h4>
+              <h5 class="text-gray-600 mb-2">Mehedi Hasan Himel</h5>
+              <a
+                href="https://m.me/mehedihasanhimel.jsx"
+                target="_blank"
+                class="inline-block text-[var(--primary)] font-medium transition-all duration-300 hover:underline hover:text-[var(--primary-variant)]"
+              >
+                Send a message
+              </a>
+            </article>
+
+            <!-- WhatsApp -->
+            <article
+              class="bg-white p-6 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg text-center"
+            >
+              <i
+                class="fa-brands fa-whatsapp text-[var(--primary)] text-3xl mb-4"
+              ></i>
+              <h4 class="text-[var(--primary)] text-lg font-semibold">
+                WhatsApp
+              </h4>
+              <h5 class="text-gray-600 mb-2">+8801312778360</h5>
+              <a
+                href="https://api.whatsapp.com/send?phone=+8801312778360"
+                target="_blank"
+                class="inline-block text-[var(--primary)] font-medium transition-all duration-300 hover:underline hover:text-[var(--primary-variant)]"
+              >
+                Send a message
+              </a>
+            </article>
+          </div>
+
+          <!-- Contact Form -->
+          <form
+            action=""
+            class="flex flex-col gap-6 bg-white p-8 rounded-2xl shadow-md border border-transparent hover:border-[var(--primary-variant)] transition-all duration-300 hover:shadow-lg"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Full Name"
+              required
+              class="w-full p-3 rounded-xl border border-gray-300 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] transition-all duration-200"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+              class="w-full p-3 rounded-xl border border-gray-300 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] transition-all duration-200"
+            />
+            <textarea
+              name="message"
+              rows="7"
+              placeholder="Your Message"
+              required
+              class="w-full p-3 rounded-xl border border-gray-300 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] transition-all duration-200 resize-none"
+            ></textarea>
+            <button
+              type="submit"
+              class="inline-block w-max px-6 py-3 rounded-full bg-[var(--primary)] text-white font-medium transition-all duration-300 hover:bg-[var(--primary-variant)] focus:outline-2 focus:outline-offset-2 focus:outline-[var(--primary)] active:bg-[var(--primary-variant-2)]"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- Contact Section End -->
+
+      <!-- Footer Section Start -->
+      <footer id="footer" class="bg-[var(--bg)] py-16 px-6">
+        <div
+          class="max-w-6xl mx-auto bg-white text-center py-12 px-6 shadow-md hover:shadow-lg transition-all duration-300 rounded-2xl"
+        >
+          <!-- Logo -->
+          <h3 class="text-[var(--primary)] text-2xl font-semibold mb-6">
+            Mehedi Hasan Himel
+          </h3>
+
+          <!-- Permalinks -->
+          <ul
+            class="flex flex-wrap justify-center gap-4 md:gap-6 text-gray-600 mb-8 font-medium"
+          >
+            <li>
+              <a href="#home" class="hover:text-[var(--primary)] transition"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="hover:text-[var(--primary)] transition"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#experience"
+                class="hover:text-[var(--primary)] transition"
+                >Experience</a
+              >
+            </li>
+            <li>
+              <a href="#services" class="hover:text-[var(--primary)] transition"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#portfolio"
+                class="hover:text-[var(--primary)] transition"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                class="hover:text-[var(--primary)] transition"
+                >Testimonials</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="hover:text-[var(--primary)] transition"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <!-- Social Icons -->
+          <div
+            class="flex justify-center gap-6 mb-8 text-2xl text-[var(--primary)]"
+          >
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              class="hover:scale-110 hover:text-[var(--primary-variant)] transition-all duration-300"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              class="hover:scale-110 hover:text-[var(--primary-variant)] transition-all duration-300"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              class="hover:scale-110 hover:text-[var(--primary-variant)] transition-all duration-300"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              class="hover:scale-110 hover:text-[var(--primary-variant)] transition-all duration-300"
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </div>
+
+          <!-- Copyright -->
+          <div class="footer__copyright">
+            <small class="text-gray-500"
+              >&copy; Mehedi Hasan Himel. All rights reserved.</small
+            >
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Section End -->
+    </main>
+  </body>
+</html>
